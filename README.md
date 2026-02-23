@@ -1,3 +1,16 @@
+# Links to repos
+https://github.com/XinyiZhao-cloud/order-analytics-service
+https://github.com/XinyiZhao-cloud/order-service
+https://github.com/XinyiZhao-cloud/store-front
+https://github.com/XinyiZhao-cloud/product-service-python
+
+---
+
+# Demo Video
+🎥 https: https://youtu.be/8wNIUUDXiFc
+
+---
+
 # Azure Deployment – RabbitMQ Infrastructure
 - RabbitMQ was deployed on an Azure Virtual Machine running Ubuntu and managed using Docker with the official rabbitmq:3-management image. The container exposes port 5672 for AMQP messaging and 15672 for the management interface.    
 
@@ -8,8 +21,10 @@
 - Both services were configured using environment variables (RABBITMQ_URL and QUEUE_NAME) in Azure App Service, following 12-Factor App principles and treating RabbitMQ as a backing service.
 <img width="457" height="318" alt="Screenshot 2026-02-23 at 1 41 47 PM" src="https://github.com/user-attachments/assets/d95ce93f-074d-4083-811a-5df1fb1e13e1" />
 
-# Why choose Docker?
+## Why choose Docker?
 Docker was chosen to provide a clean, isolated, and reproducible deployment environment, making it easier to manage dependencies, restart services, and reset the system for testing and demos.
+
+---
 
 ## End-to-end testing confirmed that:
 - Orders placed through the Static Web App are published to RabbitMQ. 
