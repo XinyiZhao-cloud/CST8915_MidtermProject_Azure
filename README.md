@@ -1,8 +1,8 @@
 # Links to repos
-https://github.com/XinyiZhao-cloud/order-analytics-service
-https://github.com/XinyiZhao-cloud/order-service
-https://github.com/XinyiZhao-cloud/store-front
-https://github.com/XinyiZhao-cloud/product-service-python
+- Order Analytics Service: https://github.com/XinyiZhao-cloud/order-analytics-service
+- Order Service: https://github.com/XinyiZhao-cloud/order-service
+- Store Front: https://github.com/XinyiZhao-cloud/store-front
+- Product Service: https://github.com/XinyiZhao-cloud/product-service-python
 
 ---
 
